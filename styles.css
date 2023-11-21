@@ -4,9 +4,9 @@ body {
 }
 
 header {
-    background-color: grey;
+    background-color: white;
     text-align: center;
-    padding: 20px;
+    padding: 10px;
 }
 
 
@@ -14,7 +14,7 @@ header {
 
 .navbar ul {
     list-style-type: none;
-    background-color: gray;
+    background-color: #197051;
     padding: 0px;
     margin: 0px;
     overflow: hidden;
