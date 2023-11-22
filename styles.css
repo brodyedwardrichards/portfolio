@@ -60,7 +60,7 @@ div {
 .headerStyle {
     font-size: 30px;
     font-family: 'Courier New', Courier, monospace;
-    border: 3px solid green;
+    border: 3px solid #197051;
     padding: 10px;
     max-width: fit-content;
     margin: auto;
@@ -98,6 +98,27 @@ div {
     padding: 15px;
 }
 
+ol  {
+    text-align: center;
+    list-style-position: inside;
+    text-align: left;
+    border: 2px #197051 solid;
+    padding: 5px;
+    max-width: fit-content;
+    
+}
+
+#listStyle {
+    display: flex;
+    justify-content: center;
+    background-color: #197051;
+    color: white;
+    width: 45%;
+    border-radius: 15px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
 /* END of HOCKEY */
 
 /* Table */ 
@@ -118,6 +139,7 @@ table td {
     font-size: 20px;
     text-align: center;
     border: 2px #197051 solid;
+    font-family:'Times New Roman', Times, serif;
 }
 
 table tr {
@@ -128,6 +150,5 @@ table tr {
     text-align: center;
     font-size: 18px;
     font-family: 'Courier New', Courier, monospace;
-    
     
 }
