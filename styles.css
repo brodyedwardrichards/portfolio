@@ -3,21 +3,31 @@ body {
     margin: 0px;
 }
 
+/*html {
+    scroll-behavior: smooth;
+}
+*/
 header {
     background-color: white;
     text-align: center;
     padding: 10px;
 }
 
+div {
+    text-align: center;
+}
 
 /* navbar items */
 
 .navbar ul {
     list-style-type: none;
     background-color: #197051;
-    padding: 0px;
+    padding-left: 20%;
+    padding-right: 10%;
     margin: 0px;
     overflow: hidden;
+    
+    
 }
 
 .navbar a {
@@ -26,14 +36,46 @@ header {
     padding: 15px;
     display: block;
     text-align: center;
+    transition: 0.5s;
 }
 
 .navbar a:hover {
-    background-color: black;
+    background-color: grey;
+    
 }
 
 .navbar li {
     float: left;
 }
 
+/* Biography */
 
+div#bioContainer {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h2#Biography {
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    border: 3px solid green;
+    padding: 10px;
+    max-width: fit-content;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 30px;
+}
+
+#brodyPicture {
+    max-width: 900px;
+    margin: 30px;
+    border-radius: 50px;
+}
+
+
+#para1 {
+    margin: 30px;   
+}
