@@ -75,11 +75,13 @@ div {
     border-radius: 50px;
 }
 
-
 #para1 {
-    margin: 30px;   
+    margin: 30px;
 }
+/* END of BIOGRAPHY */
 
+
+/*Hockey */
 
 .hockeyPara {
     display: flex;
@@ -96,6 +98,7 @@ div {
     padding: 15px;
 }
 
+/* END of HOCKEY */
 
 /* Table */ 
 
