@@ -50,14 +50,14 @@ div {
 
 /* Biography */
 
-div#bioContainer {
+#bioContainer {
     display: flex;
     align-items: center;
     font-size: 18px;
     font-family: 'Courier New', Courier, monospace;
 }
 
-h2#Biography {
+.headerStyle {
     font-size: 30px;
     font-family: 'Courier New', Courier, monospace;
     border: 3px solid green;
@@ -78,4 +78,53 @@ h2#Biography {
 
 #para1 {
     margin: 30px;   
+}
+
+
+.hockeyPara {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#hockeyContainer {
+    display: block;
+    align-items: center;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 15px;
+}
+
+
+/* Table */ 
+
+#tableStyle {
+    margin: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 4px #197051 solid;
+
+}
+
+table td {
+    height: 50px;
+    font-size: 20px;
+    text-align: center;
+    border: 2px #197051 solid;
+}
+
+table tr {
+    font-size: 30px;
+}
+
+.pFormat {
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+    
+    
 }
