@@ -139,7 +139,8 @@ table td {
     font-size: 20px;
     text-align: center;
     border: 2px #197051 solid;
-    font-family:'Times New Roman', Times, serif;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
 }
 
 table tr {
