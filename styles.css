@@ -3,10 +3,11 @@ body {
     margin: 0px;
 }
 
-/*html {
+html {
     scroll-behavior: smooth;
 }
-*/
+
+
 header {
     background-color: white;
     text-align: center;
@@ -191,3 +192,33 @@ caption {
 .container {
     display: flex;
 }
+
+/* END of PhotoGallery */
+
+/* Contact Information */
+
+.contactColour {
+    color: #197051
+}
+
+
+
+/* END of Contact Information */
+
+/* Footer */
+
+footer{
+    background-color: #197051;
+    color: white;
+    font-size: 30px;
+    width: 100%;
+    height: 100;
+    text-align: center;
+    position: absolute;
+}
+
+.emailColour {
+    color: white;
+}
+    
+/* END of Footer */
