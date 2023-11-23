@@ -73,11 +73,11 @@ li:hover {
 }
 
 #brodyPicture {
-    width: 100%;
-    height: auto;
-    margin-right: 30px;
+    max-width: 900px;
+    margin-right: ;
     border-radius: 50px;
-    border: 3px #197051 solid;
+    border: 6px #197051 solid;
+    display: flex;
 }
 
 #para1 {
@@ -129,6 +129,7 @@ ol  {
     border-radius: 15px;
     margin: auto;
     margin-bottom: 30px;
+    
 }
 
 .linkLine {
@@ -234,6 +235,7 @@ footer{
     border: 10px;
     padding: 1rem 1rem;
     vertical-align: middle
+    
 }
 
 #iconOne {
@@ -246,4 +248,47 @@ footer{
     float: right;
 }
 
+.headerStyleFooter {
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    border: 3px solid #197051;
+    padding: 10px;
+    max-width: fit-content;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 30px;
+}
+
 /* END of Footer */
+
+
+/* Media Query */
+
+@media (max-width: 680px) {
+    body {
+        background-color: #19705267;
+    }
+
+    div#bioContainer {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+    }
+
+    .headerStyle {
+        background-color: white;
+    }
+
+    .headerStyleFooter {
+        font-size: 30px;
+        font-family: 'Courier New', Courier, monospace;
+        border: 3px solid #197051;
+        padding: 10px;
+        max-width: fit-content;
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border-radius: 30px;
+}
