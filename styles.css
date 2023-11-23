@@ -114,6 +114,7 @@ ol  {
     padding: 5px;
     max-width: fit-content;
     
+    
 }
 
 #listStyle {
@@ -159,8 +160,34 @@ table tr {
     text-align: center;
     font-size: 18px;
     font-family: 'Courier New', Courier, monospace;
+    margin: 20px;
+}
+
+caption {
+    padding: 15px;
+    caption-side: bottom;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+}
+
+#topRow {
+    background-color: #197051;
+    color: white;
 }
 
 /* END of TABLE */
 
-/* 
+/* Photo Gallery */
+
+.column {
+    flex: 30%;
+    padding: 5px;
+}
+
+.imgFormat {
+    width: 100%;
+}
+
+.container {
+    display: flex;
+}
