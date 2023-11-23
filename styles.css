@@ -1,6 +1,7 @@
 body {
     background-color: white;
     margin: 0px;
+    padding: 0;
 }
 
 html {
@@ -20,34 +21,35 @@ div {
 
 /* navbar items */
 
-.navbar ul {
-    list-style-type: none;
+.navContainer {
+    position: absolute;
+    width: 100%;
     background-color: #197051;
-    padding-left: 20%;
-    padding-right: 10%;
-    margin: 0px;
-    overflow: hidden;
-    
-    
-}
-
-.navbar a {
     color: white;
-    text-decoration: none;
-    padding: 15px;
-    display: block;
+}
+
+.nav {
     text-align: center;
-    transition: 0.5s;
+    color: white;
 }
 
-.navbar a:hover {
-    background-color: grey;
-    
+ul li {
+    display: inline-block;
+    padding: 0 10px;
 }
 
-.navbar li {
-    float: left;
+a {
+    text-decoration: none;
+    color: white;
+    font-size: large;
 }
+
+li:hover {
+    background-color: gray;
+    height: auto;
+}
+
+
 
 /* Biography */
 
@@ -71,11 +73,11 @@ div {
 }
 
 #brodyPicture {
-    max-width: 900px;
+    width: 100%;
+    height: auto;
     margin-right: 30px;
     border-radius: 50px;
-    border: 6px #197051 solid;
-    display: flex;
+    border: 3px #197051 solid;
 }
 
 #para1 {
@@ -127,6 +129,16 @@ ol  {
     border-radius: 15px;
     margin: auto;
     margin-bottom: 30px;
+}
+
+.linkLine {
+    color: blue;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.linkLine:hover {
+    background-color: #19705267;
 }
 
 /* END of HOCKEY */
