@@ -131,9 +131,7 @@ ol  {
 #listStyle {
     display: flex;
     justify-content: center;
-    background-color: #197051;
-    color: white;
-    width: 30%;
+    width: 100%;
     border-radius: 15px;
     margin: auto;
     margin-bottom: 30px;
@@ -299,5 +297,9 @@ footer{
         margin-top: 10px;
         margin-bottom: 10px;
         border-radius: 30px;
+    }
+
+    ol:hover {
+        text-decoration: none !important;
     }
 }
