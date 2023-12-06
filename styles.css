@@ -314,3 +314,11 @@ footer{
     color: white;
     border-radius: 20px;
 }
+
+#btn-alert:hover {
+    font-size: 30px;
+    margin-bottom: 50px;
+    background-color: purple;
+    color: white;
+    border-radius: 20px;
+}
