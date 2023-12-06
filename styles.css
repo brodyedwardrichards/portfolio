@@ -303,3 +303,14 @@ footer{
         text-decoration: none !important;
     }
 }
+
+
+/* button styling */
+
+#btn-alert {
+    font-size: 30px;
+    margin-bottom: 50px;
+    background-color: #197051;
+    color: white;
+    border-radius: 20px;
+}
