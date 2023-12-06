@@ -337,3 +337,13 @@ p#txt-counter {
     margin-bottom: 80px;
     
 }
+
+/* change text colours */ 
+
+.even {
+    color: red;
+}
+
+.odd {
+    color: blue;
+}
