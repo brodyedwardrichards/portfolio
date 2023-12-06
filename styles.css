@@ -331,3 +331,9 @@ footer{
     color: white;
     border-radius: 20px;
 }
+
+p#txt-counter {
+    font-size: 20px;
+    margin-bottom: 80px;
+    
+}
