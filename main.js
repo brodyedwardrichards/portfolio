@@ -23,3 +23,12 @@ document.getElementById('btn-alert').onmouseover = () => {
 document.getElementById('btn-alert').onmouseleave = () => {
     document.getElementById('btn-alert').innerText = 'Click me';
 };
+
+
+// Incrementing Button 
+
+let count = 1;
+document.getElementById('btn-counter').onclick = () => {
+     count = count + 1;
+     document.getElementById('txt-counter').innerHTML = `Number:  ${count}`
+}

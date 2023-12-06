@@ -322,3 +322,12 @@ footer{
     color: white;
     border-radius: 20px;
 }
+
+/* Counter button styling */
+
+#btn-counter {
+    font-size: 20px;
+    background-color: slateblue;
+    color: white;
+    border-radius: 20px;
+}
