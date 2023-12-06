@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=neon|outline|emboss|shadow-multiple">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
@@ -10,20 +12,25 @@
 
     <header>
    <title>Brody's Webpage</title>
+   <header>
+        <img src="Images/personalLogoFinal.png" alt="Personal Logo" height="200px">
+    </header>
 
-   <nav>
-    <h2>Navigation</h2>
-    <ul>
-        <li><a href="#Biography">Biography</a></li>
-        <li><a href="#TableOfBrody">Table of Brody</a></li>
-        <li><a href="#ContactInformation">Contact Information</a></li>
-    </ul>
+   <nav class="navbar">
+    <div class="navContainer">
+        <div class="nav">
+            <ul>
+                <li><a href="#Biography">Biography</a></li>
+                <li><a href="#HockeyCareer">Hockey Career</a></li>
+                <li><a href="#TableOfBrody">Table of Brody</a></li>
+                <li><a href="#PhotoGallery">Photo Gallary</a></li>
+            </ul>
+        </div>
+    </div> 
    </nav>
    
    <h1>Brody's Website</h1>
 
-   </header>
-   
     <h2 id="Biography">Biography</h2>
 
     <p>My name is Brody and I am a 24 year old student at SAIT. 
@@ -34,79 +41,147 @@
         my skills over the next two years. My goals are to master my skills in 
         both front and back end developent, and gain the skills necessary to join the 
         workforce after my degree has finished</p>
+        <figure id="pictureBrody">
+            <img id="brodyPicture" src="Images/pp.jpg" alt="brody richards selfie" width="400" height="400">
+            <figcaption>Picture of Me</figcaption>
+        </figure>
+    </div>
 
-    <img src="Images/pp.jpg" alt="brody richards selfie" width="400" height="400">
+    <br>
+    <br>
+    <br>
 
-    <p>Hockey can be a hard game to learn, but here are the <a href="https://www.chicagowolves.com/gameday/hockey-101/explanation-of-common-rules/">rules</a> if you
-        were curious.</a> 
+    <div>
+        <h2 class="headerStyle" id="HockeyCareer">Hockey Career</h2>
+    </div>
+    <div id="hockeyContainer">
+        <p class="pFormat">Hockey can be a hard game to learn, but here are the <a class="linkLine" href="https://www.chicagowolves.com/gameday/hockey-101/explanation-of-common-rules/">rules</a> if you
+            were curious.</a> 
 
-    <p>Hockey is my favorite sport by far, but I love a few others. Here is a list of my top 5.
-        <ol>
-            <li>Hockey</li>
-            <li>Football</li>
-            <li>Soccer</li>
-            <li>Rugby</li>
-            <li>Basketball</li>
-        </ol>
-    </p>
+        <p class="pFormat">I currently play as a defender on a team at the University of Calgary.</p>
 
-    <h3 id="TableOfBrody">Table of Brody</h3>
-    <p>I was born in Calgary, but I have lived in a few places throughout my life.</p>
+        <p class="pFormat">Hockey is my favorite sport by far, but I love a few others. Here is a list of my top 5.</p>
 
-    <table border="1">
-        <tr>
-            <th>Year</th>
-            <th>Country</th>
-            <th>City</th>
-        </tr>
-        <tr>
-            <td>1999-2017</td>
-            <td>Canada</td>
-            <td>Calgary</td>
-        </tr>
-        <tr>
-            <td>2018</td>
-            <td>United Kingdom</td>
-            <td>London</td>
-        </tr>
-        <tr>
-            <td>2019-2022</td>
-            <td>Canada</td>
-            <td>Calgary</td>
-        </tr>
-        <tr>
-            <td>2023</td>
-            <td>Australia</td>
-            <td>Brisbane</td>
-        </tr>
+        <div id="listStyle">
+            <ol>
+                <li>Hockey</li>
+                <li>Football</li>
+                <li>Soccer</li>
+                <li>Rugby</li>
+                <li>Basketball</li>
+            </ol>
+        </div>
+    </div>
 
-    </table>
-    </p>
+    <div>
+        <h3 id="TableOfBrody" class="headerStyle">Table of Brody</h3>
+    </div>
+    <p class="pFormat">I was born in Calgary, but I have lived in a few places throughout my life.</p>
 
-    <p>Australia has some of the most beautiful beaches in the world! Here is Bondi beaches 
-        in Sydney. <br><br><img src="Images/bondi.jpg" alt="Bondi Beach" width="400" height="400">
-        <br><cite>High-angle Photography of 
-            High Rise Buildings Near on Body of Water. By Mudassir Ali. License: Pexels License.
-             <a href="https://www.pexels.com/photo/high-angle-photography-of-high-rise-buildings-near-on-body-of-water-1590249/">Link</a>
-        </cite></a>
-    </p>
+    <div id="tableStyle">
+        <table>
+            <caption>All the places I have lived.</caption>
+            <tr id="topRow">
+                <th>Year</th>
+                <th>Country</th>
+                <th>City</th>
+            </tr>
+            <tr>
+                <td>1999-2017</td>
+                <td>Canada</td>
+                <td>Calgary</td>
+            </tr>
+            <tr>
+                <td>2018</td>
+                <td>United Kingdom</td>
+                <td>London</td>
+            </tr>
+            <tr>
+                <td>2019-2022</td>
+                <td>Canada</td>
+                <td>Calgary</td>
+            </tr>
+            <tr>
+                <td>2023</td>
+                <td>Australia</td>
+                <td>Brisbane</td>
+            </tr>
 
-    <p>Here are some of Australia's other famous
-        <a href="https://www.australia.com/en-ca/things-to-do/beaches-and-islands/australias-best-beaches.html">Beaches</a></p>
+        </table>
+        </p>
+        <p class="pFormat">Take a look at some of the photos from my travels in the Photo Gallery below!</p>
+    </div>  
+    
+    <br>
 
-    <h2 id="ContactInformation">Contact Information</h2>
+    <h2 id="PhotoGallery" class="headerStyle">Photo Gallery</h2>
 
-    <p>My phone number is - 403-282-3028</p>
+    <p class="pFormat">Here are some photos from my Australia trip.</p>
+        <div class="container">
+            <div class="column">
+                <img  class="imgFormat" src="Images/brisbane.jpg" alt="Brisbane at night"><figcaption>Brisbane</figcaption>
+            </div>
+            <div class="column">
+                <img  class="imgFormat" src="Images/koala.jpg" alt="Me holding a koala"><figcaption>Koala</figcaption>
+            </div>
+            <div class="column">
+                <img  class="imgFormat" src="Images/coffs.jpg" alt="Coffs Harbour at sunset"><figcaption>Coffs Harbour</figcaption>
+            </div>
+    </div>
 
-    <p>My email is - brody@gmail.com</p>
+    <br>
+    <br>
+    <p class="pFormat">Here are some photos from my United Kingdom trip.</p>
+    <div class="container">
+        <div class="column">
+            <img  class="imgFormat" src="Images/stairs.jpg" alt="Brisbane at night"><figcaption>Scotland</figcaption>
+        </div>
+        <div class="column">
+            <img  class="imgFormat" src="Images/castle.jpg" alt="Me holding a koala"><figcaption>London</figcaption>
+        </div>
+        <div class="column">
+            <img  class="imgFormat" src="Images/road.jpg" alt="Coffs Harbour at sunset"><figcaption>York</figcaption>
+        </div>
+    </div>
+
+
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <p></p>
+    
+    <div>
+
+
 </main>
 
     <footer>
-        <p>Author: Brody  Richards
-            <a href="brody@gmail.com">brody@gmail.com</a>
-            <p>&copy; CC-BY</p>
-        </p>
+        <div class="footerContainer">
+            <div class="footerColumn">
+                <h2 id="ContactInformation" class="headerStyleFooter">Contact Information</h2>
+                <p class="pFormat">My phone number is: <span class="contactColour">403-282-3028</p></span>
+                <p class="pFormat">My email is: <span class="contactColour">brody@gmail.com</span></p>
+            </div>
+            <div class="footerColumn">
+                <h2 class="headerStyleFooter">Social media</h2>
+                    <div id="iconOne">
+                        <p><a href="https://www.facebook.com/"><img class="icon" src="Images/facebook.png"></a></p>
+                    </div>
+                    <div id="iconTwo">
+                        <p><a href="https://www.instagram.com/"><img class="icon" src="Images/instagram.png"></a></p>
+                    </div>
+                <p class="pFormat"></a> 
+            </div>
+        </div>
+                <p>Author: Brody  Richards
+                    <a class="emailColour" href="brody@gmail.com">brody@gmail.com</a>
+                    <p>&copy; CC-BY</p>
+                </p>
     </footer>
+</div>
 
 </body>
 </html>
