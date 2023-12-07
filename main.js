@@ -39,3 +39,18 @@ document.getElementById('btn-counter').onclick = () => {
         document.getElementById('txt-counter').classList.remove('even');
     }
 }
+
+
+// for Loops , using an if...else loop inside. uses same css styling from Incrementing Button classes (even and odd)
+for (let i = 1; i <= 100; i = i + 1) {
+    const createLi = document.createElement('li');
+    const addLi = document.createTextNode(`List Item: ` + i);
+    document.getElementById('numbers').appendChild(createLi); 
+    createLi.appendChild(addLi);
+        if ((i % 2) === 0) {
+            createLi.classList.add('even');
+            
+        } else {
+            createLi.classList.add('odd');
+        }
+}
