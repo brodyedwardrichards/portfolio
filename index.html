@@ -6,6 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script defer src="main.js"></script>
 </head>
 <body>
 <main>
@@ -31,9 +32,25 @@
    
    <h1>Brody's Website</h1>
 
-    <h2 id="Biography">Biography</h2>
+   <div id="googleFont" class="font-effect-outline">
+   <p>Welcome to my website</p>
+    </div>
 
-    <p>My name is Brody and I am a 24 year old student at SAIT. 
+    <div>
+        <button type="button" id="btn-alert">CLICK ME</button>
+    </div>
+
+    <div>
+        <button type="button" id='btn-counter'>Counter</button>
+        <p id="txt-counter"></p>
+    </div>
+
+
+    <div id="bioHeader">
+        <h2 id="Biography" class="headerStyle">Biography</h2>
+    </div>
+    <div id="bioContainer">
+        <p id="para1">My name is Brody and I am a 24 year old student at SAIT. 
         I am currently enrolled in the Interactive Design program, 
         with an emphasis on Web Development. I love playing hockey and 
         going to the gym with my friends. I love everything about design, and 
@@ -144,6 +161,10 @@
         </div>
     </div>
 
+    <div>
+        <ol id="numbers">
+        </ol>
+    </div>
 
 
     <br>
@@ -178,6 +199,7 @@
         </div>
                 <p>Author: Brody  Richards
                     <a class="emailColour" href="brody@gmail.com">brody@gmail.com</a>
+                    <p id="yearID"></p>
                     <p>&copy; CC-BY</p>
                 </p>
     </footer>

@@ -303,3 +303,47 @@ footer{
         text-decoration: none !important;
     }
 }
+
+
+/* button styling */
+
+#btn-alert {
+    font-size: 30px;
+    margin-bottom: 50px;
+    background-color: #197051;
+    color: white;
+    border-radius: 20px;
+}
+
+#btn-alert:hover {
+    font-size: 30px;
+    margin-bottom: 50px;
+    background-color: purple;
+    color: white;
+    border-radius: 20px;
+}
+
+/* Counter button styling */
+
+#btn-counter {
+    font-size: 20px;
+    background-color: slateblue;
+    color: white;
+    border-radius: 20px;
+}
+
+p#txt-counter {
+    font-size: 20px;
+    margin-bottom: 80px;
+    
+}
+
+/* change text colours */ 
+
+.even {
+    color: red;
+}
+
+.odd {
+    color: blue;
+}
